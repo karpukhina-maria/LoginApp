@@ -13,6 +13,8 @@
 		A5837C0E26D4330A004D08E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5837C0C26D4330A004D08E1 /* Main.storyboard */; };
 		A5837C1026D4330B004D08E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5837C0F26D4330B004D08E1 /* Assets.xcassets */; };
 		A5837C1326D4330B004D08E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5837C1126D4330B004D08E1 /* LaunchScreen.storyboard */; };
+		A5837C1B26D43760004D08E1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5837C1A26D43760004D08E1 /* WelcomeViewController.swift */; };
+		A5837C1F26D44443004D08E1 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5837C1E26D44443004D08E1 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A5837C0F26D4330B004D08E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5837C1226D4330B004D08E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5837C1426D4330B004D08E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5837C1A26D43760004D08E1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		A5837C1E26D44443004D08E1 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A5837C0F26D4330B004D08E1 /* Assets.xcassets */,
 				A5837C1126D4330B004D08E1 /* LaunchScreen.storyboard */,
 				A5837C1426D4330B004D08E1 /* Info.plist */,
+				A5837C1A26D43760004D08E1 /* WelcomeViewController.swift */,
+				A5837C1E26D44443004D08E1 /* UserData.swift */,
 			);
 			path = LoginApp;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5837C0B26D4330A004D08E1 /* LoginViewController.swift in Sources */,
+				A5837C1B26D43760004D08E1 /* WelcomeViewController.swift in Sources */,
 				A5837C0726D4330A004D08E1 /* AppDelegate.swift in Sources */,
+				A5837C1F26D44443004D08E1 /* UserData.swift in Sources */,
 				A5837C0926D4330A004D08E1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
